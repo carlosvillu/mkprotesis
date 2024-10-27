@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       <Hero />
-      
+
       <section className="py-16">
         <ImageCarousel />
       </section>
@@ -53,9 +53,10 @@ const Home = () => {
                   width="100%"
                   height="100%"
                   frameBorder="0"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835253576273!2d144.95373731531906!3d-37.81725497975177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b8c21cb649%3A0x1c045678462e3510!2sMelbourne%20VIC%203000!5e0!3m2!1sen!2sau!4v1621500559548!5m2!1sen!2sau"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.888773847414!2d2.0106030761391933!3d41.571651784545324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a492c5d029973b%3A0x62154570f82a5495!2sCarrer%20de%20Catalunya%2C%2060%2C%2008225%20Terrassa%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1730040983443!5m2!1ses!2ses"
                   allowFullScreen
                   loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
             </div>
